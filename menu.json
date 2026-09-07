@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Mini Filter Coffee",
+    "price": 20,
+    "category": "Rs 20-40",
+    "flavours": [
+      "strong",
+      "milky"
+    ],
+    "label": "Pocket Pick",
+    "description": "A tiny classic with a big coffee kick.",
+    "image": "assets/coffee_1.jpg",
+    "available": true,
+    "popularity": 97
+  },
+  {
+    "id": 2,
+    "name": "Mini Espresso",
+    "price": 30,
+    "category": "Rs 20-40",
+    "flavours": [
+      "bold",
+      "strong"
+    ],
+    "label": "Quick Kick",
+    "description": "One bold shot for instant event energy.",
+    "image": "assets/coffee_2.jpg",
+    "available": true,
+    "popularity": 94
+  },
+  {
+    "id": 3,
+    "name": "Small Cappuccino",
+    "price": 40,
+    "category": "Rs 20-40",
+    "flavours": [
+      "creamy",
+      "balanced"
+    ],
+    "label": "Mini Favourite",
+    "description": "Foamy, friendly and easy to love.",
+    "image": "assets/coffee_3.jpg",
+    "available": true,
+    "popularity": 91
+  },
+  {
+    "id": 4,
+    "name": "Classic Cold Coffee",
+    "price": 50,
+    "category": "Rs 50-70",
+    "flavours": [
+      "cold",
+      "creamy"
+    ],
+    "label": "Chill Champion",
+    "description": "Creamy, cold and made for event vibes.",
+    "image": "assets/coffee_4.jpg",
+    "available": true,
+    "popularity": 88
+  },
+  {
+    "id": 5,
+    "name": "Chocolate Coffee",
+    "price": 60,
+    "category": "Rs 50-70",
+    "flavours": [
+      "chocolate",
+      "sweet"
+    ],
+    "label": "Choco Mood",
+    "description": "Coffee meets chocolate in a happy cup.",
+    "image": "assets/coffee_5.jpg",
+    "available": true,
+    "popularity": 85
+  },
+  {
+    "id": 6,
+    "name": "Caramel Iced Coffee",
+    "price": 70,
+    "category": "Rs 50-70",
+    "flavours": [
+      "caramel",
+      "cold"
+    ],
+    "label": "Crowd-Pleaser",
+    "description": "Cool coffee with a caramel finish.",
+    "image": "assets/coffee_6.jpg",
+    "available": true,
+    "popularity": 82
+  },
+  {
+    "id": 7,
+    "name": "Black Coffee",
+    "price": 80,
+    "category": "Rs 80-100",
+    "flavours": [
+      "bold",
+      "dairy-free"
+    ],
+    "label": "No-Nonsense Brew",
+    "description": "Clean, bold and dairy-free.",
+    "image": "assets/coffee_7.jpg",
+    "available": true,
+    "popularity": 79
+  },
+  {
+    "id": 8,
+    "name": "Americano",
+    "price": 90,
+    "category": "Rs 80-100",
+    "flavours": [
+      "strong",
+      "dairy-free"
+    ],
+    "label": "Smooth and Strong",
+    "description": "Espresso character with a lighter finish.",
+    "image": "assets/coffee_8.jpg",
+    "available": true,
+    "popularity": 76
+  },
+  {
+    "id": 9,
+    "name": "Cafe Latte",
+    "price": 100,
+    "category": "Rs 80-100",
+    "flavours": [
+      "mild",
+      "creamy"
+    ],
+    "label": "Comfort Cup",
+    "description": "Silky milk coffee for an easy-going sip.",
+    "image": "assets/coffee_9.jpg",
+    "available": true,
+    "popularity": 73
+  },
+  {
+    "id": 10,
+    "name": "Vanilla Latte",
+    "price": 110,
+    "category": "Rs 110-130",
+    "flavours": [
+      "vanilla",
+      "sweet"
+    ],
+    "label": "Vanilla Cloud",
+    "description": "Soft vanilla sweetness in every sip.",
+    "image": "assets/coffee_10.jpg",
+    "available": true,
+    "popularity": 70
+  },
+  {
+    "id": 11,
+    "name": "Hazelnut Cappuccino",
+    "price": 130,
+    "category": "Rs 110-130",
+    "flavours": [
+      "nutty",
+      "creamy"
+    ],
+    "label": "Nutty Upgrade",
+    "description": "Creamy cappuccino with toasted hazelnut notes.",
+    "image": "assets/coffee_11.jpg",
+    "available": true,
+    "popularity": 67
+  },
+  {
+    "id": 12,
+    "name": "Celebration Crunch Latte",
+    "price": 150,
+    "category": "Rs 140-150",
+    "flavours": [
+      "caramel",
+      "premium"
+    ],
+    "label": "The Headliner",
+    "description": "Caramel, cream and crunch made for celebration.",
+    "image": "assets/coffee_12.jpg",
+    "available": true,
+    "popularity": 64
+  }
+]
