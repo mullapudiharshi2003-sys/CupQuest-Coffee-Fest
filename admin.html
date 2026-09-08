@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#421d12">
+  <title>CupQuest Organizer</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <small>CUPQUEST ORGANIZER</small>
+      <h1>Live Orders</h1>
+    </div>
+    <button id="signOutButton" class="ghost hidden" type="button">Sign out</button>
+  </header>
+
+  <main>
+    <section id="loginSection" class="loginCard">
+      <div class="coffeeIcon">CQ</div>
+      <small>PRIVATE ORGANIZER ACCESS</small>
+      <h2>Open the live order board</h2>
+      <p>Enter the same organizer email added to Supabase.</p>
+      <label for="organizerEmail">Organizer email</label>
+      <input id="organizerEmail" type="email" autocomplete="email" placeholder="you@example.com">
+      <button id="loginButton" class="primary" type="button">Send secure login link</button>
+      <p id="loginMessage" class="message"></p>
+    </section>
+
+    <section id="dashboardSection" class="hidden">
+      <div class="summaryGrid">
+        <article><span>New</span><strong id="newCount">0</strong></article>
+        <article><span>Payment pending</span><strong id="pendingCount">0</strong></article>
+        <article><span>Preparing</span><strong id="preparingCount">0</strong></article>
+        <article><span>Ready</span><strong id="readyCount">0</strong></article>
+      </div>
+
+      <div class="controls">
+        <input id="orderSearch" placeholder="Search customer, order or UPI reference">
+        <select id="statusFilter">
+          <option value="all">All live orders</option>
+          <option value="verification_pending">Payment pending</option>
+          <option value="paid">Payment verified</option>
+          <option value="new">New order</option>
+          <option value="preparing">Preparing</option>
+          <option value="ready">Ready</option>
+          <option value="collected">Collected</option>
+        </select>
+        <button id="refreshButton" class="secondary" type="button">Refresh</button>
+      </div>
+
+      <div class="liveLine"><span class="liveDot"></span> Live updates connected</div>
+      <div id="orders" class="orders"></div>
+    </section>
+  </main>
+
+  <div id="toast"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
